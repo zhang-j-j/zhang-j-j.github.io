@@ -39,16 +39,28 @@ My academic interests lie at the intersection of machine learning and high-dimen
 
 Outside of academics, I enjoy playing music in various campus and community ensembles as a percussionist. Most notably, I have been a part of the [Northwestern University "Wildcat" Marching Band](https://northwesternbands.org/numb) (NUMB) for all four years in college, including as a [drumline](https://www.nudrumline.org/) captain for the past two seasons. Below are some highlights from my time in NUMB!
 
-:::: {.columns}
+![](img/headshot.jpeg){.lightbox style="display: none;"}
 
-::: {.column style="padding-right: 10px;"}
-![FOX Big Noon Kickoff Performance (2025)](img/numb_1.jpg){group="numb" height=420px .lightbox}
-:::
+```{=html}
+<div style="display: flex; gap: 20px; align-items: stretch; width: 100%;">
+  
+  <div style="width: 60%; display: flex;">
+    <a href="img/numb_1.jpg" data-description="FOX Big Noon Kickoff Performance (2025)" class="lightbox" data-gallery="numb" style="width: 100%; display: flex;">
+      <img src="img/numb_1.jpg" alt="FOX Big Noon Kickoff Performance (2025)" style="width: 100%; height: 100%; object-fit: cover;">
+    </a>
+  </div>
 
-::: {.column style="padding-left: 10px;"}
-![Football Game at Wrigley Field (2025)](img/numb_2.jpg){group="numb" style="margin-bottom: 10px;" height=130px .lightbox}
-![Football Game at Wrigley Field (2025)](img/numb_3.jpg){group="numb" style="margin-top: 5px; margin-bottom: 5px;" height=130px .lightbox}
-![Rehearsal in Ryan Fieldhouse (2023)](img/numb_4.jpg){group="numb" style="margin-top: 10px;" height=130px .lightbox}
-:::
+  <div style="width: 40%; display: flex; flex-direction: column; justify-content: space-between; gap: 10px;">
+    <a href="img/numb_2.jpg" data-description="Football Game at Wrigley Field (2025)" class="lightbox" data-gallery="numb" style="width: 100%; display: flex;">
+      <img src="img/numb_2.jpg" alt="Football Game at Wrigley Field (2025)" style="width: 100%; height: auto;">
+    </a>
+    <a href="img/numb_3.jpg" data-description="Football Game at Wrigley Field (2025)" class="lightbox" data-gallery="numb" style="width: 100%; display: flex;">
+      <img src="img/numb_3.jpg" alt="Football Game at Wrigley Field (2025)" style="width: 100%; height: auto;">
+    </a>
+    <a href="img/numb_4.jpg" data-description="Rehearsal in Ryan Fieldhouse (2023)" class="lightbox" data-gallery="numb" style="width: 100%; display: flex;">
+      <img src="img/numb_4.jpg" alt="Rehearsal in Ryan Fieldhouse (2023)" style="width: 100%; height: auto;">
+    </a>
+  </div>
 
-::::
+</div>
+```

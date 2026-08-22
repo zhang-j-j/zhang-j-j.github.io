@@ -60,13 +60,22 @@ body.quarto-light .about-link:focus {
 }
 
 body .gslide-description .gslide-title,
-body .gslide-description .gslide-desc {
+body .gslide-description .gslide-desc,
+body .gcaption-container .gtitle,
+body .gcaption-container .gdesc {
+  margin: 0.25em 0 !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: 1rem !important;
   font-weight: 400 !important;
+  line-height: 1.4 !important;
+  background-color: var(--page-bg) !important;
+  color: var(--page-text) !important;
 }
 
 body:not(.glightbox-mobile) div.gslide div.gslide-description,
-body:not(.glightbox-mobile) div.gslide-description .gslide-title,
-body:not(.glightbox-mobile) div.gslide-description .gslide-desc {
+body:not(.glightbox-mobile) div.gslide .gdesc-inner,
+body:not(.glightbox-mobile) .gcaption-container {
   background-color: var(--page-bg) !important;
   color: var(--page-text) !important;
 }
@@ -84,7 +93,6 @@ body.nav-fixed {
   padding-top: 0 !important;
 }
 
-/* Keep sidebar TOC in place while scrolling */
 #quarto-margin-sidebar {
   position: sticky !important;
   top: 0px !important;
