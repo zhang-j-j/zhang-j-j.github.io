@@ -1,0 +1,99 @@
+---
+title: "Projects"
+pagetitle: "Projects - Jimmy Zhang"
+
+format:
+  html:
+    toc: true
+    toc-location: right
+---
+
+This page contains selected projects from my [Coursework](#course-projects) and the [Northwestern Sports Analytics Group](#nsag) (NSAG).
+
+## Course Projects
+
+### Autoresearch for Dimension Reduction in Gene Expression
+
+Autoresearch is a recently developed method for optimizing model performance in supervised machine learning. Within this framework, an AI agent autonomously proposes and runs experiments to search for improvements under a specified evaluation scheme. I applied this approach to compute a suitable low-dimensional representation for gene expression before classifying each gene probe on a chromosome according to its expression profile. I developed an agentic AI workflow to identify the dimension reduction method that optimizes embedding quality for 946 brain regions and downstream classification performance. The agent completed 58 experiments spanning 10 distinct methods and achieved modest improvements across all evaluation metrics.
+
+This quarter-long project was completed for STAT 390-0 (Data Science Project) at Northwestern University in Spring 2026. I also presented a poster on this project at the [2026 Northwestern Undergraduate Research Expo](https://undergradresearch.northwestern.edu/share/expo/). <br>
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Code](https://github.com/zhang-j-j/auto-dim-red) **|** [Report](autoresearch_report.pdf){target="_blank"} **|** [Poster](autoresearch_poster.pdf){target="_blank"}
+:::
+
+### QuickEDA: An Automated Tool for Data Science
+
+Exploratory data analysis (EDA) is a critical first step in all data science projects to understand the dataset being used, but completing this thoroughly can often produce an overwhelming amount of less relevant information, particularly with large datasets. To help streamline this process, I developed a web application that automatically conducts EDA for tabular data and generates a summary report containing key findings, such as missingness and correlated variables. In this project-based course that focused on effectively integrating AI as a coding tool, I collaborated with multiple AI agents to brainstorm and implement a project plan.
+
+This quarter-long project was completed for COMP_SCI 196-2 (Applied Generative AI) at Northwestern University in Winter 2026.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Code](https://github.com/zhang-j-j/quick-eda)
+:::
+
+### Sentiment Analysis of Tweets
+
+Sentiment analysis is a useful natural language processing task with applications in automated social media moderation and hate speech detection. Using a dataset containing 40,000 Tweets, I developed a multinomial classification model to assign each Tweet to 1 of 13 sentiment labels based on its text. I was most interested in comparing the performance of deep learning and classical machine learning methods, and I considered 16 deep learning models with different neural network architectures. The inherent difficulty of this classification problem kept final model performance modest, and the best deep learning model presented a small improvement over the 2 baseline models using classical methods.
+
+This was a final project completed for STAT 362-0 (Advanced Machine Learning) at Northwestern University in Fall 2025.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Code](https://github.com/zhang-j-j/tweets-sentiment-analysis)
+:::
+
+### Predicting Prices of U.S. Apartments
+
+Prospective apartment renters often face a decision when choosing among multiple apartment options. While the price and amenities for each unit are typically less variable, a predictive model can highlight if an apartment is over- or under-valued, relative to other similar units. To develop a useful model for this regression problem, I trained 1,359 candidate models on a dataset containing 100,000 U.S. apartment listings. I used 2 variations of feature engineering and tuned hyperparameters for each model type with cross-validation to select the best-performing model. My final model produced a major improvement over the baseline models when evaluated on an unseen testing set, and complex feature engineering was highly effective at improving performance in parametric model types.
+
+This was a final project completed for STAT 301-2 (Data Science with R Sequence) at Northwestern University in Winter 2025.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Code](https://github.com/zhang-j-j/us-apartment-prices) **|** [Report](apartments_report.html){target="_blank"}
+:::
+
+### An Exploration of Natural Batter Swing Tendencies
+
+Bat tracking technology was one of the latest advancements in the Statcast Era of MLB, offering a massive amount of previously untracked data on player swings. Early analysis using preliminary data from the 2024 MLB season highlighted the unsurprising relationship between bat speed and power metrics, as well as how shorter swing lengths underlie a contact-oriented approach. I conducted more thorough analysis encompassing data from the entire 2024 MLB Season, aiming to understand typical swing tendencies under various game situations and their relationship to successful batting outcomes. My results largely supported the preliminary findings and what conventional wisdom suggests, bolstering the validity of commonly held beliefs with quantitative evidence.
+
+This was a final project completed for STAT 301-1 (Data Science with R Sequence) at Northwestern University in Fall 2024. I also submitted a report on this project to the [CSAS 2025 Data Challenge](https://statds.org/events/csas2025/challenge.html).
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Code](https://github.com/zhang-j-j/mlb-swing-tracking) **|** [Report](swing_report.pdf){target="_blank"}
+:::
+
+### Future Comparisons Between Chess Engine Calculation Algorithms
+
+As a chess player also interested in computer science, I was intrigued by the rapid improvement of neural network chess engines that seemingly threatened the dominance of traditional algorithms. Despite the active discourse, I was curious if any evidence suggested that the new engines would truly render the current state of the art obsolete. Using data from online chess engine tournaments, I analyzed strength levels over time for the primary engine that employed each of the 2 major algorithms. While forecasting technological development is always somewhat speculative, I found no clear indication that one method would clearly outperform the other, meaning that both could remain as viable and competitive alternatives.
+
+This year-long project was completed for [AP Research](https://apstudents.collegeboard.org/courses/ap-research) at Barrington High School in the 2022-23 school year.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Report](chess_report.pdf){target="_blank"}
+:::
+
+## NSAG
+
+### Measuring Player Fatigue to Optimize Individual Performance
+
+This project was completed for the [2024 SMT Data Challenge](https://smt.com/) in collaboration with peers from NSAG. The competition provided anonymized position tracking data from multiple levels of minor league baseball across 2 seasons, and the goal was to investigate a topic broadly relating to player promotion. We developed a metric to quantify batter exertion on infield ground balls by comparing the recorded sprint speed on one play with a batter's average and maximum speeds throughout the season. While there was no direct relationship between our fatigue metric and promotion rates, it provided an interesting foundation for future analysis that considers load management to optimize the long-term performance of baseball athletes.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Report](fatigue_report.pdf){target="_blank"}
+:::
+
+### Evaluating MLB Relief Pitchers
+
+At the start of the 2024 MLB season, I had noticed some major deviations in relief pitcher performance from past seasons, including big-name closers such as Josh Hader, David Bednar, and Emmanuel Clase. This sparked my curiosity to investigate ways of evaluating effectiveness in such a volatile position, given that many basic statistics can easily be skewed by one bad performance. I examined correlations between 5 advanced metrics that directly quantify success and 25 simpler statistics to identify strong indicators of effective performance. Run-based statistics were unsurprisingly among the strongest correlations, but it was interesting that strikeout ability was not valued as highly as expected. This exploration serves as a starting point for developing a machine learning model to predict future pitching performance.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Article](relievers_article.pdf){target="_blank"}
+:::
+
+### Predicting Quarterback Success in the 2024 NFL Draft
+
+The 2024 NFL Draft included some of the most highly touted quarterbacks in recent years, and reading different prospect evaluations from online sources led my group to develop our own model for predicting quarterback success. Using physical metrics, college profiles, and draft outcomes, we identified Bo Nix and Jayden Daniels as the 2 quarterbacks with the highest likelihood of a successful NFL career.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** [Article](https://sites.northwestern.edu/nusportsanalytics/2024/03/29/using-machine-learning-and-college-profiles-to-predict-nfl-success/)
+:::

@@ -1,0 +1,273 @@
+/* css styles */
+
+:root{
+  --purple: #4E2A84;
+  --white: #FFFFFF;
+  --silver: #C0C0C0;
+}
+
+body.quarto-light {
+  --page-bg: #FAF9F6;
+  --page-text: #212121;
+  --caption-text: #707070;
+  --link-color: #3F00FF;
+  --link-hover: #000080;
+}
+
+body.quarto-dark {
+  --page-bg: #212121;
+  --page-text: #D3D3D3;
+  --caption-text: #A8A8A8;
+  --link-color: #89CFF0;
+  --link-hover: #F0FFFF;
+}
+
+body {
+  background-color: var(--page-bg) !important;
+  color: var(--page-text) !important;
+}
+
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+li, td, th, blockquote {
+  color: var(--page-text) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+}
+
+a {
+  color: var(--link-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover) !important;
+}
+
+body.quarto-light .about-link {
+  color: var(--purple) !important;
+  border-color: var(--purple) !important;
+}
+
+body.quarto-light .about-link:hover,
+body.quarto-light .about-link:focus {
+  color: var(--link-hover) !important;
+  border-color: var(--link-hover) !important;
+}
+
+body .gslide-description .gslide-title,
+body .gslide-description .gslide-desc {
+  font-weight: 400 !important;
+}
+
+body:not(.glightbox-mobile) div.gslide div.gslide-description,
+body:not(.glightbox-mobile) div.gslide-description .gslide-title,
+body:not(.glightbox-mobile) div.gslide-description .gslide-desc {
+  background-color: var(--page-bg) !important;
+  color: var(--page-text) !important;
+}
+
+figcaption,
+.quarto-figure figcaption {
+  display: none !important;
+}
+
+details > summary {
+  color: var(--caption-text) !important;
+}
+
+body.nav-fixed {
+  padding-top: 0 !important;
+}
+
+/* Keep sidebar TOC in place while scrolling */
+#quarto-margin-sidebar {
+  position: sticky !important;
+  top: 0px !important;
+  overflow-y: auto !important;
+}
+
+.headroom,
+#quarto-header.headroom,
+#quarto-header.fixed-top {
+  position: static !important;
+  top: 0 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.navbar {
+  position: static !important;
+  background-color: var(--purple) !important;
+}
+
+.navbar-container,
+.navbar-collapse,
+.navbar-nav,
+.quarto-navbar-tools {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .me-auto .nav-link {
+  color: var(--white) !important;
+  font-size: 1.3rem;
+}
+
+.navbar .ms-auto .nav-link {
+  color: var(--silver) !important;
+  font-size: 1.1rem;
+}
+
+.navbar .ms-auto .nav-link:hover {
+  color: var(--white) !important;
+}
+
+.navbar .ms-auto .nav-link.active {
+  color: var(--white) !important;
+}
+
+.nav-footer,
+.nav-footer-left,
+.nav-footer-center,
+.nav-footer-right {
+  background-color: var(--purple) !important;
+  color: var(--white) !important;
+}
+
+.nav-footer p,
+.nav-footer-left p,
+.nav-footer-center p,
+.nav-footer-right p,
+.nav-footer a,
+.nav-footer-left a,
+.nav-footer-center a,
+.nav-footer-right a {
+  color: var(--white) !important;
+}
+
+.nav-footer a:hover,
+.nav-footer-left a:hover,
+.nav-footer-center a:hover,
+.nav-footer-right a:hover,
+.nav-footer a:focus,
+.nav-footer-left a:focus,
+.nav-footer-center a:focus,
+.nav-footer-right a:focus {
+  color: var(--silver) !important;
+}
+
+.quarto-color-scheme-toggle,
+.quarto-color-scheme-toggle::before,
+#quarto-header .navbar-toggler,
+#quarto-header .navbar-toggler-icon,
+#quarto-search,
+#quarto-search .aa-DetachedSearchButton,
+#quarto-search button {
+  color: var(--white) !important;
+  fill: var(--white) !important;
+}
+
+.quarto-color-scheme-toggle:hover,
+.quarto-color-scheme-toggle:focus-visible,
+.quarto-color-scheme-toggle:hover::before,
+.quarto-color-scheme-toggle:focus-visible::before,
+#quarto-header .navbar-toggler:hover,
+#quarto-header .navbar-toggler:focus-visible,
+#quarto-header .navbar-toggler:hover .navbar-toggler-icon,
+#quarto-header .navbar-toggler:focus-visible .navbar-toggler-icon,
+#quarto-search:hover,
+#quarto-search:focus,
+#quarto-search:hover .aa-DetachedSearchButton,
+#quarto-search:focus .aa-DetachedSearchButton,
+#quarto-search:hover button,
+#quarto-search:focus button,
+#quarto-search:hover svg,
+#quarto-search:focus svg,
+#quarto-search:hover i,
+#quarto-search:focus i {
+  color: var(--silver) !important;
+  fill: var(--silver) !important;
+}
+
+#quarto-header .navbar-toggler-icon {
+  background-image: none !important;
+  background-color: currentColor !important;
+  -webkit-mask-image: var(--bs-navbar-toggler-icon-bg);
+  mask-image: var(--bs-navbar-toggler-icon-bg);
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+#quarto-header .navbar-toggler:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.quarto-color-scheme-toggle {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0.7rem !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+  vertical-align: middle;
+}
+
+.quarto-color-scheme-toggle .bi {
+  display: none !important;
+}
+
+.quarto-color-scheme-toggle::before {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "bootstrap-icons";
+  font-style: normal;
+  line-height: 1;
+  content: "\f497";
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.quarto-color-scheme-toggle.alternate::before {
+  content: "\f5a2";
+}
+
+#quarto-search .aa-DetachedSearchButton,
+#quarto-search button,
+#quarto-search svg,
+#quarto-search i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white) !important;
+  fill: var(--white) !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  vertical-align: middle;
+}
+
+#quarto-margin-sidebar nav#TOC a.nav-link {
+  color: var(--page-text) !important;
+  opacity: 0.85;
+  text-decoration: none !important;
+}
+
+#quarto-margin-sidebar nav#TOC a.nav-link:hover {
+  color: var(--link-hover) !important;
+  opacity: 1;
+}
+
+#quarto-margin-sidebar nav#TOC a.nav-link.active {
+  color: var(--link-hover) !important;
+  border-left-color: var(--link-hover) !important;
+  opacity: 1;
+}

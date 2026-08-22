@@ -1,0 +1,54 @@
+---
+title: "James (Jimmy) Zhang"
+pagetitle: "Jimmy Zhang"
+about:
+  template: trestles
+  image: img/headshot.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jimmyzhang2027@u.northwestern.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jameszhang-zjj/
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/zhang-j-j
+      target: _blank
+    - icon: file-earmark-text
+      text: CV
+      href: pdf/Zhang_James_CV.pdf
+      target: _blank
+
+format:
+  html:
+    grid:
+      body-width: 1200px
+---
+
+::: {style="margin-bottom: -10px;"}
+## Hello!
+:::
+
+I am a senior at Northwestern University, majoring in [Data Science](https://statistics.northwestern.edu/), [Mathematics](https://www.math.northwestern.edu/), and the [Integrated Science Program](https://isp.northwestern.edu/) (ISP). I work in the [Center for Network Dynamics](https://cnd.northwestern.edu/) as an undergraduate researcher, advised by [Prof. Adilson Motter](https://physics.northwestern.edu/people/faculty/core-faculty/adilson-motter.html), and I was named a [2026 Goldwater Scholar](https://goldwaterscholarship.gov/).
+
+My academic interests lie at the intersection of machine learning and high-dimensional statistics, with an emphasis on analyzing complex scientific data. My current work focuses on developing a mathematical framework to model gene expression epistasis in *E. coli* (see [Research](research/index.qmd)). As a passionate sports fan, I also apply similar quantitative tools to explore topics in sports analytics that spark my curiosity (see [Projects](projects/index.qmd)).
+
+**I am currently pursuing PhD opportunities in Statistics and Applied Mathematics for Fall 2027.**
+
+Outside of academics, I enjoy playing music in various campus and community ensembles as a percussionist. Most notably, I have been a part of the [Northwestern University "Wildcat" Marching Band](https://northwesternbands.org/numb) (NUMB) for all four years in college, including as a [drumline](https://www.nudrumline.org/) captain for the past two seasons. Below are some highlights from my time in NUMB!
+
+:::: {.columns}
+
+::: {.column style="padding-right: 10px;"}
+![FOX Big Noon Kickoff Performance (2025)](img/numb_1.jpg){group="numb" height=420px .lightbox}
+:::
+
+::: {.column style="padding-left: 10px;"}
+![Football Game at Wrigley Field (2025)](img/numb_2.jpg){group="numb" style="margin-bottom: 10px;" height=130px .lightbox}
+![Football Game at Wrigley Field (2025)](img/numb_3.jpg){group="numb" style="margin-top: 5px; margin-bottom: 5px;" height=130px .lightbox}
+![Rehearsal in Ryan Fieldhouse (2023)](img/numb_4.jpg){group="numb" style="margin-top: 10px;" height=130px .lightbox}
+:::
+
+::::

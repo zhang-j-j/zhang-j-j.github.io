@@ -1,0 +1,45 @@
+project:
+  type: website
+  resources:
+    - pdf/**
+
+website:
+  navbar:
+    left:
+      - text: Jimmy Zhang
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: news/index.qmd
+        text: News
+  page-footer:
+    left: "<a href='index.qmd'>Jimmy Zhang</a> &copy; 2026"
+    right:
+      - icon: envelope
+        href: mailto:jimmyzhang2027@u.northwestern.edu
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jameszhang-zjj/
+        target: _blank
+      - icon: github
+        href: https://github.com/zhang-j-j
+        target: _blank
+      - icon: file-earmark-text
+        href: pdf/Zhang_James_CV.pdf
+        target: _blank
+
+format:
+  html:
+    link-external-newwindow: true
+    theme:
+      light: cosmo
+      dark: solar
+    css: styles.css
+
+execute:
+  freeze: auto

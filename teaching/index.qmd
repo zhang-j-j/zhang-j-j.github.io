@@ -1,0 +1,38 @@
+---
+title: "Teaching"
+pagetitle: "Teaching - Jimmy Zhang"
+
+format:
+  html:
+    toc: true
+    toc-location: right
+---
+
+One of my favorite aspects of teaching is being able to help younger peers overcome challenges that I also experienced not long ago. I have been fortunate to hold the following roles at Northwestern, giving me many opportunities to work with students from different backgrounds.
+
+## Mathematics Undergraduate TA
+
+I will serve as an undergraduate teaching assistant for the [Department of Mathematics](https://www.math.northwestern.edu/), beginning in **September 2026.**
+
+## SURG Peer Mentor
+
+I was a summer research peer mentor for the [Office of Undergraduate Research](https://undergradresearch.northwestern.edu/) from **April 2026** to **September 2026.** Before and during the summer, I held group and individual check-in meetings to support 8 SURG awardees in navigating their first summer research experience.
+
+## ISP Tutor
+
+I have been a tutor for the [Integrated Science Program](https://isp.northwestern.edu/) since **September 2025.** Each week, I hold a 2-hour session to help first-year ISP students with coursework questions in math (primary) and physics.
+
+## Muntz Lassonde TA
+
+I have been a [Muntz Lassonde Teaching Assistant](https://statistics.northwestern.edu/undergraduate/muntz_lassonde_ta_program.html) for the [Department of Statistics and Data Science](https://statistics.northwestern.edu/) since **April 2024.** I have worked with the following courses:
+
+- STAT 390-0: Data Science Project (Incoming Fall 2026)
+- STAT 202-0: Introduction to Statistics and Data Science (Spring 2026)
+- STAT 301-2: Data Science with R Sequence (Winter 2026)
+- STAT 304-0: Data Structures and Algorithms for Data Science (Fall 2025, Spring 2025)
+
+Specific responsibilities differ between classes, but often include: holding weekly office hours, attending class and answering student questions, leading review sessions, proctoring exams, grading homework assignments, reviewing course materials, and preparing supplementary examples.
+
+## Drumline Captain
+
+I have been a co-captain of the [NU Drumline](https://www.nudrumline.org/) for the **past 2 seasons.** During the spring and summer, we coordinate recruitment efforts and plan logistics with the band director and staff. Once the season begins, we lead sectional rehearsals to improve the group's marching and musical performance.

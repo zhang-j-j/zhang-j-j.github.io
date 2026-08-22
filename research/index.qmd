@@ -1,0 +1,22 @@
+---
+title: "Research"
+pagetitle: "Research - Jimmy Zhang"
+---
+
+I have conducted research at Northwestern in the [Center for Network Dynamics](https://cnd.northwestern.edu/) since **June 2024,** advised by [Prof. Adilson Motter](https://physics.northwestern.edu/people/faculty/core-faculty/adilson-motter.html) and Dr. Thomas Wytock. The group studies network science using tools from fields including math, physics, and data science, and my work focuses on gene regulatory networks in biological systems.
+
+More broadly, I am interested in applying machine learning to high-dimensional scientific problems. As modern technology drives the continual growth of data availability in science, I seek to develop efficient and scalable tools that enable large-scale data analysis. Ultimately, I hope to leverage this wealth of information to accelerate progress toward new scientific discoveries.
+
+## The Geometry of Gene Expression Epistasis
+
+::: {style="margin-bottom: -10px;"}
+**Collaborators:** Dr. Thomas Wytock, Prof. Adilson Motter
+:::
+
+Epistasis describes an outcome from combined experimental shifts that deviates from additivity, or the sum of individual effects, due to nonlinear interactions within a biological system. Prior work primarily considers phenotypic epistasis, such as in growth rate, and this project investigates how nonadditivity at the gene expression level underpins those observations. I analyzed gene expression in *E. coli* using a dataset with transcriptional measurements from 3,500 experiments across 171 publications. By representing changes across all 4,296 genes as a single differential expression vector, I characterized epistatic interactions according to the high-dimensional geometric relationships between related vectors within gene expression space. My results suggest a simple geometric relationship that governs nonadditivity at the gene level, and I have used this as a foundation for further biological interpretation and statistical analysis alongside my collaborators.
+
+My work on this project was supported by the [Northwestern Office of Undergraduate Research](https://undergradresearch.northwestern.edu/) through two summer research grants. I also presented a poster on this project at the [2025 Northwestern Undergraduate Research Expo](https://undergradresearch.northwestern.edu/share/expo/), and a lightning talk at the [National Institute for Theory and Mathematics in Biology](https://www.nitmb.org/). Our manuscript has been submitted to a peer-reviewed journal and is currently in the review process.
+
+::: {style="margin-top: -10px;"}
+**Learn more:** Code (forthcoming) | Manuscript (forthcoming) | [Poster](geometry_poster.pdf){target="_blank"}
+:::
