@@ -24,9 +24,9 @@ I have been a tutor for the [Integrated Science Program](https://isp.northwester
 
 ## Muntz Lassonde TA
 
-I have been a [Muntz Lassonde Teaching Assistant](https://statistics.northwestern.edu/undergraduate/muntz_lassonde_ta_program.html) for the [Department of Statistics and Data Science](https://statistics.northwestern.edu/) since **April 2024.** I have worked with the following courses:
+I have been a [Muntz Lassonde Teaching Assistant](https://statistics.northwestern.edu/undergraduate/muntz_lassonde_ta_program.html) for the [Department of Statistics and Data Science](https://statistics.northwestern.edu/) since **April 2025.** I have worked with the following courses:
 
-- STAT 390-0: Data Science Project (Incoming Fall 2026)
+- STAT 390-0: Data Science Project (Fall 2026)
 - STAT 202-0: Introduction to Statistics and Data Science (Spring 2026)
 - STAT 301-2: Data Science with R Sequence (Winter 2026)
 - STAT 304-0: Data Structures and Algorithms for Data Science (Fall 2025, Spring 2025)
